@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Workout-Buddy/precache-manifest.ebf7164e37b38fbdca2902e2f54c2e8b.js"
+  "/workout-buddy-frontend/precache-manifest.df288b539e9628a97b228e773d22f1a4.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Workout-Buddy/index.html", {
+workbox.routing.registerNavigationRoute("/workout-buddy-frontend/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
